@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "health-passport",
-    "slug": "health-passport",
+    "name": "VaccineApp",
+    "slug": "VaccineApp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,17 +13,17 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.andrewnwachuku.vaccineapp1"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.andrewnwachuku.vaccineapp1"
     },
     "web": {
       "favicon": "./assets/favicon.png"
