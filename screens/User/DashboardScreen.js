@@ -29,27 +29,45 @@ const DashboardScreen = ({ navigation }) => {
       </View>
 
       <View style={styles.cardRow}>
-        <TouchableOpacity onPress={() => navigation.push("Telehealth")}>
+        <TouchableOpacity
+          activeOpacity={0.5}
+          onPress={() => navigation.push("Telehealth")}
+        >
           <Card title="Telehealth" />
         </TouchableOpacity>
-        <TouchableOpacity onPress={() => navigation.push("Schedule")}>
-          <Card title="Schedule" />
+        <TouchableOpacity
+          activeOpacity={0.5}
+          onPress={() => navigation.push("ScheduleModal")}
+        >
+          <Card title="My Schedule" />
         </TouchableOpacity>
       </View>
       <View style={styles.cardRow}>
-        <TouchableOpacity onPress={() => navigation.push("Vaccines")}>
+        <TouchableOpacity
+          activeOpacity={0.5}
+          onPress={() => navigation.push("Vaccines")}
+        >
           <Card title="Vaccines" />
         </TouchableOpacity>
-        <TouchableOpacity onPress={() => navigation.push("Symptoms")}>
+        <TouchableOpacity
+          activeOpacity={0.5}
+          onPress={() => navigation.push("Symptoms")}
+        >
           <Card title="Symptoms" />
         </TouchableOpacity>
       </View>
       <View style={styles.cardRow}>
-        <TouchableOpacity onPress={() => navigation.push("Labs")}>
+        <TouchableOpacity
+          activeOpacity={0.5}
+          onPress={() => navigation.push("Labs")}
+        >
           <Card title="Labs" />
         </TouchableOpacity>
-        <TouchableOpacity onPress={() => navigation.push("FAQ")}>
-          <Card title="FAQ" />
+        <TouchableOpacity
+          activeOpacity={0.5}
+          onPress={() => navigation.push("VaxSchedules")}
+        >
+          <Card title="Vaccine Schedules" />
         </TouchableOpacity>
       </View>
     </ScreenContainer>

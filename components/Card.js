@@ -15,7 +15,7 @@ const Card = ({ title }) => {
   return (
     <View style={styles.card}>
       <View style={styles.cardTitleDiv}>
-        <Text>{title}</Text>
+        <Text style={{ color: "white" }}>{title}</Text>
       </View>
     </View>
   );
